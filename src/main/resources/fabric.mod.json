@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "horriblocks",
+  "version": "${version}",
+  "name": "horriblocks",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/patri/horriblocks"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "resources/assets/horriblocks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "patrycioss.mods.horriblocks.client.HorriblocksClient"
+    ],
+    "main": [
+      "patrycioss.mods.horriblocks.Horriblocks"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
